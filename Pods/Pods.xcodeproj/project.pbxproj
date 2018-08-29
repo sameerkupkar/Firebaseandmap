@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5DECB21F1331E647DA9F01F3D5A6CB /* Pods-MindBowserAssingmentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D43E6AE7A311DB4B9FC2CBB01AB4C /* Pods-MindBowserAssingmentUITests-dummy.m */; };
+		26BCE31352D3AB91608C63A55B5E123B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		313A8135A63E03CD99FDC107706028BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6EB4A46C4EAE38FED21FF3F46BAAF735 /* Pods-MindBowserAssingmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633ACEC23C9086695F0F25B7387BE31B /* Pods-MindBowserAssingmentTests-dummy.m */; };
+		7D47DD391CCF3CDC5BDD6CDEC482CF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		830F605E0301EFD7647F5F69375BF7AB /* Pods-MindBowserAssingmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFE18D0C7B112EDBAC905699F865EBA /* Pods-MindBowserAssingmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1492C3188C74EAD5627972F6D3B71FF /* Pods-MindBowserAssingment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4786CABEDBBFDAC0B57BCCDFC79E05E2 /* Pods-MindBowserAssingment-dummy.m */; };
+		DB5D14E8B85B7EAA213B3E747544490C /* Pods-MindBowserAssingment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DB7794F7B2AC2F794F5C5A93D509A7 /* Pods-MindBowserAssingment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DBBF8F779E3BBCBA63BA80412E4C43 /* Pods-MindBowserAssingmentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AB6D59B8F80650036F4144ED81CAFC /* Pods-MindBowserAssingmentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DB7794F7B2AC2F794F5C5A93D509A7 /* Pods-MindBowserAssingment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindBowserAssingment-umbrella.h"; sourceTree = "<group>"; };
+		04D1BCA7DECCCB3AF071D9BC4C42E3DC /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		05363F731F5F1E196ECF33B9D5B1A2E6 /* Pods_MindBowserAssingment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindBowserAssingment.framework; path = "Pods-MindBowserAssingment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C410A0746BAE0E4A603F6CECB50864 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		11BDE8803B26F9443C0FD41F7F51D8AF /* Pods-MindBowserAssingmentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindBowserAssingmentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1375B529FBBD71DD4F517E77A6461C74 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		150E8BDB28E9AFBEF415CFB557E74940 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		16818ACD75FA63745FBFF1726AD69209 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		1806B92A93CAFDCA5C5453012108CE78 /* Pods-MindBowserAssingment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingment.debug.xcconfig"; sourceTree = "<group>"; };
+		18E86F2359F1A14D0067E3321DD4CB2B /* Pods-MindBowserAssingment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindBowserAssingment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CFE18D0C7B112EDBAC905699F865EBA /* Pods-MindBowserAssingmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindBowserAssingmentTests-umbrella.h"; sourceTree = "<group>"; };
+		25CC77C0B6DA72A65FE333ACBC308544 /* Pods-MindBowserAssingmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AFE941806AD95F39894D1835D8A4DE6 /* Pods-MindBowserAssingmentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingmentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3EB1F7DCA5BD34D635C7467F7AF7E877 /* Pods-MindBowserAssingment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingment-frameworks.sh"; sourceTree = "<group>"; };
+		424E13505CF68B8A2A0F9772483A7A8C /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		434E75B21A599D7652C16F1A06379911 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		43F130CDE46D53CCEFC9FDD0EF9CE920 /* Pods-MindBowserAssingmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindBowserAssingmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4786CABEDBBFDAC0B57BCCDFC79E05E2 /* Pods-MindBowserAssingment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindBowserAssingment-dummy.m"; sourceTree = "<group>"; };
+		494D43E6AE7A311DB4B9FC2CBB01AB4C /* Pods-MindBowserAssingmentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindBowserAssingmentUITests-dummy.m"; sourceTree = "<group>"; };
+		4AFD6CA3D6E82C0DDBE331C1F0A16080 /* Pods-MindBowserAssingment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindBowserAssingment-acknowledgements.plist"; sourceTree = "<group>"; };
+		54087F7D4128B18B6132039AB47D2323 /* Pods-MindBowserAssingmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D726973B06BD2C82CDFD84DD8F6E21F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F29FEF69ACF5B58CAA156DE3DCD0100 /* Pods-MindBowserAssingmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindBowserAssingmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		633ACEC23C9086695F0F25B7387BE31B /* Pods-MindBowserAssingmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindBowserAssingmentTests-dummy.m"; sourceTree = "<group>"; };
+		64CBA4DC4445455B316C3C5E924C9509 /* Pods_MindBowserAssingmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindBowserAssingmentUITests.framework; path = "Pods-MindBowserAssingmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79DDD4C753D845C86DEC42AE4B93A62B /* Pods-MindBowserAssingmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81E6CC463930EAA69647F92B24DC70FE /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		8E14390755CD4C3D71765CB34929D6ED /* Pods-MindBowserAssingmentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingmentUITests-resources.sh"; sourceTree = "<group>"; };
+		93100834F16B2D8311D48CDBAA078C36 /* Pods-MindBowserAssingmentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingmentTests-resources.sh"; sourceTree = "<group>"; };
+		9337FE88864872C375203290777890E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BEB7BACA8FECF7F1D44ADF018562C0 /* Pods-MindBowserAssingmentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindBowserAssingmentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98AB6D59B8F80650036F4144ED81CAFC /* Pods-MindBowserAssingmentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindBowserAssingmentUITests-umbrella.h"; sourceTree = "<group>"; };
+		9B99557D89EBAE1FFB716F61317AA5CA /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		A4BF02209CD24031754E998E1132B38A /* Pods-MindBowserAssingmentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingmentTests-frameworks.sh"; sourceTree = "<group>"; };
+		A5ECEE4FC1D37970E4CA044820ACCDEA /* Pods-MindBowserAssingmentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindBowserAssingmentUITests.modulemap"; sourceTree = "<group>"; };
+		AD35EE127FDC7E48949E84E4041B3EC9 /* Pods-MindBowserAssingmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B31FDC72CE127D06AFE28427BA8B46B0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		BD4231063211092CFEF79D9E403EB12F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		CA81E66884E9F6293DF2F2F17A557D4A /* Pods_MindBowserAssingmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindBowserAssingmentTests.framework; path = "Pods-MindBowserAssingmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA997BCD6F878B68AE4D47E42C1AD33 /* Pods-MindBowserAssingment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindBowserAssingment-resources.sh"; sourceTree = "<group>"; };
+		D02E4D69B8E759DA9277B8D7ED9F1437 /* Pods-MindBowserAssingment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindBowserAssingment.release.xcconfig"; sourceTree = "<group>"; };
+		D27B806698C9F6F197B4360FEFADB6A0 /* Pods-MindBowserAssingment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindBowserAssingment.modulemap"; sourceTree = "<group>"; };
+		DA6173D464E60C808A53FEC9229331D3 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		EC87EA7ABD42AC6E8471E11446F546B6 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		FB7CFE81565487F37D4135676C62F6E9 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		FCC62B0EB0DFFC155D0017CB0CD8DC13 /* Pods-MindBowserAssingmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindBowserAssingmentTests.modulemap"; sourceTree = "<group>"; };
+		FEF0927D26836BFFDA0BA2AEF8FC73C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8595C76AE448750A2E4B0693A574BED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BCE31352D3AB91608C63A55B5E123B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36B9E08700050FA814E5582A90C21D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313A8135A63E03CD99FDC107706028BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B4FFE513AF20D280FF48B36DF68E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D47DD391CCF3CDC5BDD6CDEC482CF88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F650CD82AEA731FE34BABFE5807B799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B99557D89EBAE1FFB716F61317AA5CA /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A7BD985314E8522485281F7E9C7B5DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				150E8BDB28E9AFBEF415CFB557E74940 /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		444C71894C2E447C8B2842CB13C63C40 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				1375B529FBBD71DD4F517E77A6461C74 /* ANSCompatibility.h */,
+				04D1BCA7DECCCB3AF071D9BC4C42E3DC /* Answers.h */,
+				B31FDC72CE127D06AFE28427BA8B46B0 /* CLSAttributes.h */,
+				FB7CFE81565487F37D4135676C62F6E9 /* CLSLogging.h */,
+				05C410A0746BAE0E4A603F6CECB50864 /* CLSReport.h */,
+				EC87EA7ABD42AC6E8471E11446F546B6 /* CLSStackFrame.h */,
+				16818ACD75FA63745FBFF1726AD69209 /* Crashlytics.h */,
+				0F650CD82AEA731FE34BABFE5807B799 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		50E4D80CAB16FD38045C2FD3B05FB76E /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B763E12BC6F15FB5A5F6B42109ABA /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		525F1C5D4E7CA64F389AA78F42A4ADB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4231063211092CFEF79D9E403EB12F /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56E7BF4BBE9F774700FB7D7DB82AE505 /* Pods-MindBowserAssingment */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0927D26836BFFDA0BA2AEF8FC73C6 /* Info.plist */,
+				D27B806698C9F6F197B4360FEFADB6A0 /* Pods-MindBowserAssingment.modulemap */,
+				18E86F2359F1A14D0067E3321DD4CB2B /* Pods-MindBowserAssingment-acknowledgements.markdown */,
+				4AFD6CA3D6E82C0DDBE331C1F0A16080 /* Pods-MindBowserAssingment-acknowledgements.plist */,
+				4786CABEDBBFDAC0B57BCCDFC79E05E2 /* Pods-MindBowserAssingment-dummy.m */,
+				3EB1F7DCA5BD34D635C7467F7AF7E877 /* Pods-MindBowserAssingment-frameworks.sh */,
+				CFA997BCD6F878B68AE4D47E42C1AD33 /* Pods-MindBowserAssingment-resources.sh */,
+				00DB7794F7B2AC2F794F5C5A93D509A7 /* Pods-MindBowserAssingment-umbrella.h */,
+				1806B92A93CAFDCA5C5453012108CE78 /* Pods-MindBowserAssingment.debug.xcconfig */,
+				D02E4D69B8E759DA9277B8D7ED9F1437 /* Pods-MindBowserAssingment.release.xcconfig */,
+			);
+			name = "Pods-MindBowserAssingment";
+			path = "Target Support Files/Pods-MindBowserAssingment";
+			sourceTree = "<group>";
+		};
+		61D0A1254EA815BC2E2A3F56D4F2D17B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05363F731F5F1E196ECF33B9D5B1A2E6 /* Pods_MindBowserAssingment.framework */,
+				CA81E66884E9F6293DF2F2F17A557D4A /* Pods_MindBowserAssingmentTests.framework */,
+				64CBA4DC4445455B316C3C5E924C9509 /* Pods_MindBowserAssingmentUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6317A290D436770CE9543456786B5862 /* Pods-MindBowserAssingmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9337FE88864872C375203290777890E9 /* Info.plist */,
+				FCC62B0EB0DFFC155D0017CB0CD8DC13 /* Pods-MindBowserAssingmentTests.modulemap */,
+				5F29FEF69ACF5B58CAA156DE3DCD0100 /* Pods-MindBowserAssingmentTests-acknowledgements.markdown */,
+				43F130CDE46D53CCEFC9FDD0EF9CE920 /* Pods-MindBowserAssingmentTests-acknowledgements.plist */,
+				633ACEC23C9086695F0F25B7387BE31B /* Pods-MindBowserAssingmentTests-dummy.m */,
+				A4BF02209CD24031754E998E1132B38A /* Pods-MindBowserAssingmentTests-frameworks.sh */,
+				93100834F16B2D8311D48CDBAA078C36 /* Pods-MindBowserAssingmentTests-resources.sh */,
+				1CFE18D0C7B112EDBAC905699F865EBA /* Pods-MindBowserAssingmentTests-umbrella.h */,
+				AD35EE127FDC7E48949E84E4041B3EC9 /* Pods-MindBowserAssingmentTests.debug.xcconfig */,
+				54087F7D4128B18B6132039AB47D2323 /* Pods-MindBowserAssingmentTests.release.xcconfig */,
+			);
+			name = "Pods-MindBowserAssingmentTests";
+			path = "Target Support Files/Pods-MindBowserAssingmentTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B520B0F3B0779B8786DF7EB423436DE5 /* Pods */,
+				61D0A1254EA815BC2E2A3F56D4F2D17B /* Products */,
+				7E0F6BCD646079DA7517CF137C77103D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0F6BCD646079DA7517CF137C77103D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56E7BF4BBE9F774700FB7D7DB82AE505 /* Pods-MindBowserAssingment */,
+				6317A290D436770CE9543456786B5862 /* Pods-MindBowserAssingmentTests */,
+				B16931CE6CA881080C4B9B8D0D4267BA /* Pods-MindBowserAssingmentUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FA54B7848DE5B89A0B8C51206A9B879 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				C7ED9D3F7D458EB3F25F2A137B0228B5 /* Frameworks */,
+				1A7BD985314E8522485281F7E9C7B5DE /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		B16931CE6CA881080C4B9B8D0D4267BA /* Pods-MindBowserAssingmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D726973B06BD2C82CDFD84DD8F6E21F /* Info.plist */,
+				A5ECEE4FC1D37970E4CA044820ACCDEA /* Pods-MindBowserAssingmentUITests.modulemap */,
+				97BEB7BACA8FECF7F1D44ADF018562C0 /* Pods-MindBowserAssingmentUITests-acknowledgements.markdown */,
+				11BDE8803B26F9443C0FD41F7F51D8AF /* Pods-MindBowserAssingmentUITests-acknowledgements.plist */,
+				494D43E6AE7A311DB4B9FC2CBB01AB4C /* Pods-MindBowserAssingmentUITests-dummy.m */,
+				3AFE941806AD95F39894D1835D8A4DE6 /* Pods-MindBowserAssingmentUITests-frameworks.sh */,
+				8E14390755CD4C3D71765CB34929D6ED /* Pods-MindBowserAssingmentUITests-resources.sh */,
+				98AB6D59B8F80650036F4144ED81CAFC /* Pods-MindBowserAssingmentUITests-umbrella.h */,
+				25CC77C0B6DA72A65FE333ACBC308544 /* Pods-MindBowserAssingmentUITests.debug.xcconfig */,
+				79DDD4C753D845C86DEC42AE4B93A62B /* Pods-MindBowserAssingmentUITests.release.xcconfig */,
+			);
+			name = "Pods-MindBowserAssingmentUITests";
+			path = "Target Support Files/Pods-MindBowserAssingmentUITests";
+			sourceTree = "<group>";
+		};
+		B520B0F3B0779B8786DF7EB423436DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				444C71894C2E447C8B2842CB13C63C40 /* Crashlytics */,
+				EB56030CDE2EA2B08D9D10592BC21269 /* Fabric */,
+				50E4D80CAB16FD38045C2FD3B05FB76E /* TwitterCore */,
+				7FA54B7848DE5B89A0B8C51206A9B879 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC2B763E12BC6F15FB5A5F6B42109ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424E13505CF68B8A2A0F9772483A7A8C /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7ED9D3F7D458EB3F25F2A137B0228B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434E75B21A599D7652C16F1A06379911 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB56030CDE2EA2B08D9D10592BC21269 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				DA6173D464E60C808A53FEC9229331D3 /* FABAttributes.h */,
+				81E6CC463930EAA69647F92B24DC70FE /* Fabric.h */,
+				525F1C5D4E7CA64F389AA78F42A4ADB0 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EC567BA4BEA0DD197506D1F0CBD65AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DBBF8F779E3BBCBA63BA80412E4C43 /* Pods-MindBowserAssingmentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B79C3967375F42AF220B562E3E7C75D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830F605E0301EFD7647F5F69375BF7AB /* Pods-MindBowserAssingmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB781711C57422C919DC94761C4E28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5D14E8B85B7EAA213B3E747544490C /* Pods-MindBowserAssingment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DEA80DF2F7DA7119D24D04F3704A30F /* Pods-MindBowserAssingmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F79397A33CF85D3C8BCB90D23EAAFC2 /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingmentTests" */;
+			buildPhases = (
+				913FFA294D9A1502EE81110F01677FF5 /* Sources */,
+				8595C76AE448750A2E4B0693A574BED1 /* Frameworks */,
+				2B79C3967375F42AF220B562E3E7C75D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MindBowserAssingmentTests";
+			productName = "Pods-MindBowserAssingmentTests";
+			productReference = CA81E66884E9F6293DF2F2F17A557D4A /* Pods_MindBowserAssingmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		724B9A52F4F2F24CE79620CBEFF588B3 /* Pods-MindBowserAssingment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DBD76629059894F77C103734BD2045 /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingment" */;
+			buildPhases = (
+				FE27609F14DA4E5EBBCAB9FC062C90AA /* Sources */,
+				B36B9E08700050FA814E5582A90C21D7 /* Frameworks */,
+				A0FB781711C57422C919DC94761C4E28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MindBowserAssingment";
+			productName = "Pods-MindBowserAssingment";
+			productReference = 05363F731F5F1E196ECF33B9D5B1A2E6 /* Pods_MindBowserAssingment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90C7F1D9947729CB6C080816AEF6C149 /* Pods-MindBowserAssingmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0549CA63B85E8F888B7A5E2C55ABDAEB /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingmentUITests" */;
+			buildPhases = (
+				A88B270FEE8E188421006095B7D16F43 /* Sources */,
+				B9B4FFE513AF20D280FF48B36DF68E4D /* Frameworks */,
+				0EC567BA4BEA0DD197506D1F0CBD65AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MindBowserAssingmentUITests";
+			productName = "Pods-MindBowserAssingmentUITests";
+			productReference = 64CBA4DC4445455B316C3C5E924C9509 /* Pods_MindBowserAssingmentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61D0A1254EA815BC2E2A3F56D4F2D17B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724B9A52F4F2F24CE79620CBEFF588B3 /* Pods-MindBowserAssingment */,
+				0DEA80DF2F7DA7119D24D04F3704A30F /* Pods-MindBowserAssingmentTests */,
+				90C7F1D9947729CB6C080816AEF6C149 /* Pods-MindBowserAssingmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913FFA294D9A1502EE81110F01677FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB4A46C4EAE38FED21FF3F46BAAF735 /* Pods-MindBowserAssingmentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88B270FEE8E188421006095B7D16F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5DECB21F1331E647DA9F01F3D5A6CB /* Pods-MindBowserAssingmentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE27609F14DA4E5EBBCAB9FC062C90AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1492C3188C74EAD5627972F6D3B71FF /* Pods-MindBowserAssingment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		573BFFE43A08985DACE949E5C872AB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DDD4C753D845C86DEC42AE4B93A62B /* Pods-MindBowserAssingmentUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingmentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingmentUITests/Pods-MindBowserAssingmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingmentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58DDC7923ECF07389CEDFF49BEAC8B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806B92A93CAFDCA5C5453012108CE78 /* Pods-MindBowserAssingment.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingment/Pods-MindBowserAssingment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77903A3E3EFF6867CC0EB4D15700E805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02E4D69B8E759DA9277B8D7ED9F1437 /* Pods-MindBowserAssingment.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingment/Pods-MindBowserAssingment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C956A6A0C0144FA7FC00515B8DC7C3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CC77C0B6DA72A65FE333ACBC308544 /* Pods-MindBowserAssingmentUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingmentUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingmentUITests/Pods-MindBowserAssingmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingmentUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E39B8A5E5A11EF93E3494CEBBDD88DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD35EE127FDC7E48949E84E4041B3EC9 /* Pods-MindBowserAssingmentTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingmentTests/Pods-MindBowserAssingmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingmentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC9078DDEE66CCDA203E960E3BA2AB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54087F7D4128B18B6132039AB47D2323 /* Pods-MindBowserAssingmentTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindBowserAssingmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindBowserAssingmentTests/Pods-MindBowserAssingmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MindBowserAssingmentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0549CA63B85E8F888B7A5E2C55ABDAEB /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C956A6A0C0144FA7FC00515B8DC7C3A5 /* Debug */,
+				573BFFE43A08985DACE949E5C872AB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F79397A33CF85D3C8BCB90D23EAAFC2 /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39B8A5E5A11EF93E3494CEBBDD88DD8 /* Debug */,
+				EC9078DDEE66CCDA203E960E3BA2AB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DBD76629059894F77C103734BD2045 /* Build configuration list for PBXNativeTarget "Pods-MindBowserAssingment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DDC7923ECF07389CEDFF49BEAC8B5C /* Debug */,
+				77903A3E3EFF6867CC0EB4D15700E805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

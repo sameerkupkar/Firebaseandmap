@@ -1,0 +1,6 @@
+framework module Pods_MindBowserAssingmentTests {
+  umbrella header "Pods-MindBowserAssingmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
